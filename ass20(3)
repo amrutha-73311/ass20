@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+int num,i,sum=0;
+printf("input any number");
+scanf("%d",&num);
+printf("1+");
+for(i=1;i<=num;i++)
+printf("1/%d+",i);
+for(i=1;i<=num;i++)
+sum=sum+i;
+printf("1/%d",num);
+printf('\n sum=1/%d,sum+1/num);
+return0;
+}
